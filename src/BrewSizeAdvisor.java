@@ -8,7 +8,7 @@ public class BrewSizeAdvisor {
         
 
         int volume = sc.nextInt();
-        if (volume > 300){
+        if (volume > 350){
             System.out.println("Large");
         }
         else if (volume >= 200 && volume <=350){
